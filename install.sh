@@ -10,8 +10,8 @@ sh /tmp/kuainiao/update.sh
 echo "Kuainiao install success!"
 echo "Update Soft Center..."
 cd /koolshare/res
-wget --no-check-certificate --tries=1 --timeout=15 https://raw.githubusercontent.com/wangchll/xiao_add_kuainiao/master/software_center.png -O software_center.png
-wget -no-check-certificate --tries=1 --timeout=15 https://raw.githubusercontent.com/wangchll/xiao_add_kuainiao/master/Softerware_center.css -O Softerware_center.css
+wget --no-check-certificate --tries=1 --timeout=15 https://raw.githubusercontent.com/wangchll/xiaobao_add_kuainiao/master/software_center.png -O software_center.png
+wget --no-check-certificate --tries=1 --timeout=15 https://raw.githubusercontent.com/wangchll/xiaobao_add_kuainiao/master/Softerware_center.css -O Softerware_center.css
 cd /koolshare/webs
-wget --no-check-certificate --tries=1 --timeout=15 https://raw.githubusercontent.com/wangchll/xiao_add_kuainiao/master/Main_Soft_center.asp -O Main_Soft_center.asp
+wget --no-check-certificate --tries=1 --timeout=15 https://raw.githubusercontent.com/wangchll/xiaobao_add_kuainiao/master/Main_Soft_center.asp -O Main_Soft_center.asp
 echo "All Done~"
