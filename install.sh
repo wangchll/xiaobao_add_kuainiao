@@ -2,11 +2,12 @@
 
 cd /tmp
 echo "Start download install package..."
-wget --no-check-certificate --tries=1 --timeout=15 https://raw.githubusercontent.com/wangchll/kuainiao_for_xiaobao/master/kuainiao.tar.gz
+wget --no-check-certificate --tries=1 --timeout=15 https://raw.githubusercontent.com/wangchll/kuainiao_for_xiaobao/master/kuainiao.tar.gz -O kuainiao.tar.gz
 echo "Installing..."
 tar -zxf kuainiao.tar.gz
 chmod a+x /tmp/kuainiao/update.sh
 sh /tmp/kuainiao/update.sh
+rm -rf /tmp/install.sh >/dev/null 2>&1
 echo "Kuainiao install success!"
 echo "Update Soft Center..."
 cd /koolshare/res
