@@ -7,7 +7,7 @@ echo "Installing..."
 tar -zxf kuainiao.tar.gz
 chmod a+x /tmp/kuainiao/update.sh
 sh /tmp/kuainiao/update.sh
-rm -rf /tmp/install.sh >/dev/null 2>&1
+rm -rf /tmp/install_kuainiao.sh >/dev/null 2>&1
 echo "Kuainiao install success!"
 echo "Update Soft Center..."
 cd /koolshare/res
