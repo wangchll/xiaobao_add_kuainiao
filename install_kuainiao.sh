@@ -2,7 +2,7 @@
 
 cd /tmp
 echo "Start download install package..."
-wget --no-check-certificate --tries=1 --timeout=15 https://raw.githubusercontent.com/wangchll/kuainiao_for_xiaobao/master/kuainiao.tar.gz -O kuainiao.tar.gz
+wget --no-check-certificate --tries=1 --timeout=15 https://raw.githubusercontent.com/koolshare/koolshare.github.io/master/kuainiao/kuainiao.tar.gz -O kuainiao.tar.gz
 echo "Installing..."
 tar -zxf kuainiao.tar.gz
 chmod a+x /tmp/kuainiao/update.sh
