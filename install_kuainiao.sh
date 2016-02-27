@@ -10,9 +10,9 @@ sh /tmp/kuainiao/update.sh
 rm -rf /tmp/install_kuainiao.sh >/dev/null 2>&1
 echo "Kuainiao install success!"
 echo "Use Kuainiao ,The browser to access:http://router.asus.com/Module_kuainiao.asp"
-#cd /koolshare/res
-#wget --no-check-certificate --tries=1 --timeout=15 https://raw.githubusercontent.com/wangchll/xiaobao_add_kuainiao/master/software_center.png -O software_center.png
-#wget --no-check-certificate --tries=1 --timeout=15 https://raw.githubusercontent.com/wangchll/xiaobao_add_kuainiao/master/Softerware_center.css -O Softerware_center.css
-#cd /koolshare/webs
-#wget --no-check-certificate --tries=1 --timeout=15 https://raw.githubusercontent.com/wangchll/xiaobao_add_kuainiao/master/Main_Soft_center.asp -O Main_Soft_center.asp
+cd /koolshare/res
+wget --no-check-certificate --tries=1 --timeout=15 https://raw.githubusercontent.com/wangchll/xiaobao_add_kuainiao/master/software_center.png -O software_center.png
+wget --no-check-certificate --tries=1 --timeout=15 https://raw.githubusercontent.com/wangchll/xiaobao_add_kuainiao/master/Softerware_center.css -O Softerware_center.css
+cd /koolshare/webs
+wget --no-check-certificate --tries=1 --timeout=15 https://raw.githubusercontent.com/wangchll/xiaobao_add_kuainiao/master/Main_Soft_center.asp -O Main_Soft_center.asp
 echo "All Done~"
